@@ -1,24 +1,28 @@
 ﻿# Dhwani Sarathi
 
-### SiH 1403 : App-Based Audiometer
+### SIH 1403: App-Based Audiometer
 ### Problem Statement:
 
->To know a person's Hearing Loss, generally we use a Pure Tone Audiometer. To use this it requires a bulk of the instrument to be carried. This testing requires a considerable amount of time for testing. It was observed that a large level of hearing testing, it is consuming much time. So a hand-held Mobile phone operated APP BASED AUDIOMETER will be of immense useful in finding and detecting hearing loss in children in schools
+Traditionally, assessing a person's hearing loss involves using a "Pure Tone Audiometer," a cumbersome instrument that requires significant time and effort to operate. This lengthy process is particularly problematic in large-scale hearing tests. To address this, we propose a mobile phone-operated app-based audiometer, which will greatly benefit the detection and diagnosis of hearing loss in school children.
 
 ### Motivation:
-Introducing an app-based audiometer for school screenings revolutionizes the way we detect and address hearing loss in children. This mobile phone-operated solution offers unparalleled accessibility, convenience, and cost-effectiveness, drastically reducing testing time while ensuring early detection. By leveraging modern technology, this app empowers healthcare providers, educators, and parents to swiftly identify potential hearing issues, enabling timely intervention and fostering better academic and social outcomes for children.
+Implementing an app-based audiometer for school screenings revolutionizes the detection and management of hearing loss in children. This mobile solution offers unmatched accessibility, convenience, and cost-effectiveness, significantly reducing testing time while ensuring early detection. By harnessing modern technology, the app enables healthcare providers, educators, and parents to quickly identify potential hearing issues, allowing for timely intervention and improving academic and social outcomes for children.
 
 ### Features of App
 - Pure Tone Audiometry Test
-- Results, Analysis, and Interpretation of Test
-- Classroom Based management system with Analytics
-- Connect to the Nearest Doctor
+- Test Results, Analysis, and Interpretation
+- Classroom-based management system with Analytics
+- Connectivity to the Nearest Doctor
 - Digitization of physical audiometry documents
 - and many more...
 
 ### Tech Stack
 - React Native
 - Django
+
+## Demo Video on YouTube
+[![App-Based Audiometer Demo](https://img.youtube.com/vi/Ta_q6q90akU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ta_q6q90akU)
+
 
 ## Screenshots
 <h3>Authentication</h3>
@@ -78,7 +82,7 @@ cd audiometer
 npm install
 npm run web
 ```
-- Change **ip** value to address in the command line in the file audiometer/app/Constants/ip.js
+- Change `ip` value to address in the command line in the file audiometer/app/Constants/ip.js
 
 ### Backend
 - Run the below commands:
@@ -121,15 +125,6 @@ python manage.py runserver <ip_address>:80/<ip_address>:8081
 #Here <ip_address> is the IP address on which the expo is running
 ```
 ## Team
-<p>
-    <img src="Screenshots/Hackathon.jpeg" >&emsp;
-</p>
-<p>
-    <img src="Screenshots/winners.jpeg">&emsp;
-    </p>
-
-**Team Members** 
-
 - Sachin Kumar Sahu
 - Palivela Ganesh Priyatham
 - Preethi Varsha Marivina
